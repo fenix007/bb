@@ -90,6 +90,7 @@ import {
   useSidebarThreadRowStatus,
   useSidebarThreadRowStatuses,
   useSidebarThreadShortcut,
+  useSidebarThread,
   useSidebarThreads,
 } from "./plugin-sidebar-hooks";
 import { useSidebarSplitLayout } from "./plugin-split-layout";
@@ -226,6 +227,7 @@ export const pluginSdkAppImplementation = {
   experimental_InfoList: InfoList,
   experimental_InfoListRow: PluginInfoListRow,
   experimental_useSidebarThreads: useSidebarThreads,
+  experimental_useSidebarThread: useSidebarThread,
   experimental_useSidebarThreadActions: useSidebarThreadActions,
   experimental_useThreadActions: useThreadActionEntries,
   experimental_useArchiveEnvironmentThreads: useArchiveEnvironmentThreads,
